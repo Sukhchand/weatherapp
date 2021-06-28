@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
   pointer-events: none;
 }
 
@@ -15,9 +15,8 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -35,4 +34,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+footer {
+  padding: 2rem;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  background: #282c34;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #fff;
+}
+
+.main-content {
+  background-color: #1070B7;
+  height: calc( 100vh - 18rem );
+  padding: 10vh 25vw;
+}
+.input-label {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  display: inline-block;
+}
+
+input {
+  width: 50%;
+  padding: 0.5rem;
+  border-bottom-left-radius: 0.3rem;
+  border-top-left-radius: 0.3rem;
+  outline: none;
+  border: none;
+}
+button {
+  padding: 0.5rem;
+  text-transform: uppercase;
+  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  border: none;
+  background: #EA4F2D;
+  color: #fff;
+}
+.location-details {
+  border: 1px solid #fff;
+  margin-top: 2rem;
+  text-align: left;
+  padding: 1rem;
+  background: rgba(255,255,255,0.5);
+}
+.no-result {
+  border: 1px solid #CE2F2B;
+  margin-top: 2rem;
+  padding: 1rem;
+  color: #fff;
+  background: rgba(206, 46, 43,0.5);
+}
+.no-result h3{
+  margin: 0;
 }
