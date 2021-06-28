@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Steps to Run this Application:
+1. npm install - it will install all the dependant packages
+2. npm run server - This command is to start node server. Run this command in one terminal/command prompt.
+3. npm start - This command is to start your frontend application. Run this command is separate terminal/command prompt.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
